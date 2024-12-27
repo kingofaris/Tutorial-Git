@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>306</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #ffefd5; 
+    font-family: &quot;Comic Sans MS&quot;, sans-serif;
+    color: #2f4f4f;
+    font-size: 14px;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #1e90ff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>To-Do List Manager</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QListWidget" name="listWidget">
+     <property name="styleSheet">
+      <string notr="true">QListWidget {
+    background-color: #f0e68c; 
+    border: 2px solid #d2691e; 
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    color: #2f4f4f;
+}
+
+QListWidget::item {
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+QListWidget::item:hover {
+    background-color: #ffa500;
+    color: #ffffff; 
+}
+
+QListWidget::item:selected {
+    background-color: #ff4500;
+    color: #ffffff;
+    border: 1px solid #000000; 
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #1e90ff; 
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>New List</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    background-color: #ffffff;
+    border: 2px solid #8a2be2;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    color: #2f4f4f;
+}
+
+QLineEdit:focus {
+    border: 2px solid #ffa07a;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #ffa07a; 
+    border: 2px solid #cd5c5c;
+    border-radius: 10px;
+    color: #ffffff; 
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #f08080; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:pressed {
+    background-color: #cd5c5c; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:disabled {
+    background-color: #d3d3d3; 
+    border: 2px solid #a9a9a9; 
+    color: #7f7f7f; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #ffa07a; 
+    border: 2px solid #cd5c5c;
+    border-radius: 10px;
+    color: #ffffff; 
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #f08080; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:pressed {
+    background-color: #cd5c5c; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:disabled {
+    background-color: #d3d3d3; 
+    border: 2px solid #a9a9a9; 
+    color: #7f7f7f; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Done</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #ffa07a; 
+    border: 2px solid #cd5c5c;
+    border-radius: 10px;
+    color: #ffffff; 
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #f08080; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:pressed {
+    background-color: #cd5c5c; 
+    border: 2px solid #8b0000; 
+}
+
+QPushButton:disabled {
+    background-color: #d3d3d3; 
+    border: 2px solid #a9a9a9; 
+    color: #7f7f7f; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

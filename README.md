@@ -23,6 +23,7 @@ MY INTERNSHIP PROJECT 1
 
 ## Lucky Trianika
 Tugas saya ( https://github.com/triannika/Tutorial-Git/tree/main/Triannika )
+
 ### Bagas
 Help my Study Application
 [My Code (Click Here !)](Bagas/)
@@ -31,3 +32,6 @@ Help my Study Application
 LTI Assignment
 [Click Here!](https://github.com/lyca-byte/Tutorial-Git/tree/main/Darla)
 
+### Disa
+To-Do List Applicatio
+[Click Here!](https://github.com/Disa-Fajar/Tutorial-Git/tree/main/Disa)
