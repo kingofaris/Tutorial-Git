@@ -1,12 +1,21 @@
 # Tutorial-Git
 Mari belajar
 
+---
+
 ### Danan
 Orang yang baik hati
 
 ![](Foto/Danan.jpg)
 
 [Kode ku (klik sini)](Danan/)
+
+### Nue
+Hi, just a regular person...
+
+[Follow my Github!](https://github.com/EintsWaveX/)
+
+---
 
 ### Raditya
 Video to Image Converter (heheheha)\
