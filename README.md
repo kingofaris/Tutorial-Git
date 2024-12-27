@@ -1,0 +1,26 @@
+# Tutorial-Git
+Mari belajar
+
+### Danan
+Orang yang baik hati
+
+![](Foto/Danan.jpg)
+
+[Kode ku (klik sini)](Danan/)
+
+### Raditya
+Video to Image Converter (heheheha)\
+[My code (Click here!!!!)](Raditya/)
+
+### Juan
+Tugas Saya
+[Kode Saya (Klik Disini !)](Juan/)
+
+### Lintang Yoga Wistara
+MY INTERNSHIP PROJECT 1  
+[Video to Image Converter](https://github.com/linseayw/testLTI/tree/c514985472c1eb429427dd7e2684d28e43b04c53/Video%20to%20Image%20Converter)  
+[Color image to black and white image converter](https://github.com/linseayw/testLTI/tree/b062fd9f08e483deb16c8d42358c1c3835fbdd87/Video%20to%20Image%20Converter)  
+
+### Bagas
+Help my Study Application
+[My Code (Click Here !)](Bagas/)
